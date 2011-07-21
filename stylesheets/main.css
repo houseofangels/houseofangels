@@ -1,0 +1,117 @@
+/* ========== */
+/* = COLORS = */
+/* ========== */
+* { margin: 0; padding: 0; }
+
+body { font-size: 16px; color: #666666; font-family: Arial, Helvetica, sans-serif; }
+
+.wrapper { max-width: 976px; _width: 976px; margin: 0 auto; }
+
+a { color: #006c98; }
+
+.btn, #header .btn_wrap li .active { font-size: 14px; text-transform: uppercase; }
+
+.btn { color: #006c98; }
+
+/* ============ */
+/* = HEADINGS = */
+/* ============ */
+.head_1, .head_2, .head_3 { display: block; color: #006c98; font-weight: bold; padding-bottom: 1em; }
+
+.head_1 a, .head_2 a, .head_3 a { text-decoration: none; }
+
+.head_1 { font-size: 23px; }
+
+.head_2 { font-size: 19px; }
+
+.head_3 { font-size: 16px; }
+
+.head_group { padding-bottom: 1em; }
+
+.head_group .head_1, .head_group .head_2, .head_group .head_3 { padding-bottom: 0em; }
+
+.head_group em { display: block; font-size: 13px; color: #999; }
+
+/* ============ */
+/* = CONTEXTS = */
+/* ============ */
+.editorial p, .editorial li { padding-bottom: 1.5em; line-height: 1.3em; }
+
+.editorial ul, .editorial ol { margin-bottom: 35px; }
+
+.editorial ul li { padding-left: 30px; list-style: none; background: url("../images/bullet-blue.png") no-repeat left 7px; }
+
+.editorial ol { margin-left: 40px; }
+
+.editorial ol li { color: #006c98; padding-left: 10px; }
+
+.editorial ol li span { color: #666666; }
+
+.editorial .small_list li { padding-bottom: .8em; }
+
+/* ========== */
+/* = HEADER = */
+/* ========== */
+#header { padding: 40px 0 30px; margin-bottom: 40px; text-align: right; border-top: 2px solid #006c98; border-bottom: 1px solid #e3f3fa; }
+
+#header .btn_wrap { padding-top: 15px; }
+
+#header .btn_wrap li { margin-left: 10px; }
+
+#header .btn_wrap li .active { background: #006c98; color: #FFF; }
+
+.logo { width: 279px; height: 73px; display: block; background: url("../images/logo.png") no-repeat left top; text-align: left; text-indent: -9999em; }
+
+/* ========== */
+/* = FOOTER = */
+/* ========== */
+#footer { margin-top: 60px; padding-top: 30px; background: #006c98; }
+
+#footer .head_2 { color: #FFF; padding-bottom: 10px; }
+
+#footer p { line-height: 1.5em; }
+
+#footer a { color: #FFF; font-size: 14px; }
+
+/* ======== */
+/* = MODS = */
+/* ======== */
+.mod_let_us_help .title { display: block; width: 283px; height: 55px; background: url("../images/mod_let_us_help-txt-quoted.gif") no-repeat left top; text-indent: -9999em; }
+
+.mod_let_us_help em { font-size: 13px; color: #999; display: block; text-align: right; width: 243px; margin-top: -5px; }
+
+#footer .mod_let_us_help .title { background: url("../images/mod_let_us_help-txt-quoted-white.gif") no-repeat left top; }
+
+#footer .mod_let_us_help em { color: #99C4D6; line-height: normal; }
+
+.mod_separator { display: block; clear: both; height: 20px; }
+
+.mod_separator hr { display: none; }
+
+.mod_separator_m { height: 40px; }
+
+.mod_separator_l { height: 40px; }
+
+.mod_contact_info { padding-bottom: 30px; padding-top: 8px; }
+
+.mod_contact_info dl { zoom: 1; line-height: 1.5em; padding-top: 9px; }
+
+.mod_contact_info dl dt { display: inline; padding-right: 5px; float: left; clear: left; }
+
+.mod_contact_info dl dl { display: table; zoom: 1; }
+
+.gallery li a { height: 112px; display: block; position: relative; }
+
+.gallery li span { width: 205px; height: 112px; display: block; position: absolute; top: 0; left: 0; z-index: 3; background: url("../images/zoom-overlay.png") no-repeat center center; }
+
+.gallery li a:hover span { opacity: .3; }
+
+.gallery li img { display: block; position: relative; z-index: 1; }
+
+.txt_help_our_women, .txt_thank_you { text-indent: -9999em; height: 70px; }
+
+.txt_help_our_women { background: url("../images/txt_you_can_help_our_women.png") no-repeat left top; }
+
+.txt_thank_you { background: url("../images/txt_thank_you.png") no-repeat left top; }
+
+   
