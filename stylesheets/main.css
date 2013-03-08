@@ -70,8 +70,14 @@ a { color: #006c98; }
 #footer .head_2 { color: #FFF; padding-bottom: 10px; }
 
 #footer p { line-height: 1.5em; }
+#footer li { line-height: 1.2em; padding-bottom: 10px; }
 
-#footer a { color: #FFF; font-size: 14px; }
+#footer ul {
+    list-style: none;
+    padding-right: 20px;
+}
+
+#footer a, #footer li { color: #FFF; font-size: 14px; }
 
 /* ======== */
 /* = MODS = */
@@ -114,4 +120,8 @@ a { color: #006c98; }
 
 .txt_thank_you { background: url("../images/txt_thank_you.png") no-repeat left top; }
 
-   
+
+
+.mod_donation {
+    padding-bottom: 20px;
+}
